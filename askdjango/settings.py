@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'blog',
     'dojo',
     'accounts',
+    'shop',
+
 ]
 
 MIDDLEWARE = [
