@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	askdjango/settings.py	/^ALLOWED_HOSTS = ['*']$/;"	v
+AUTH_PASSWORD_VALIDATORS	askdjango/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+BASE_DIR	askdjango/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+BlogConfig	blog/apps.py	/^class BlogConfig(AppConfig):$/;"	c
+DATABASES	askdjango/settings.py	/^DATABASES = {$/;"	v
+DEBUG	askdjango/settings.py	/^DEBUG = True$/;"	v
+DojoConfig	dojo/apps.py	/^class DojoConfig(AppConfig):$/;"	c
+ExcelDownloadView	dojo/views_cvb.py	/^class ExcelDownloadView(View):$/;"	c
+INSTALLED_APPS	askdjango/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	askdjango/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE	askdjango/settings.py	/^MIDDLEWARE = [$/;"	v
+Migration	blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Post	blog/models.py	/^class Post(models.Model):$/;"	c
+PostListView1	dojo/views_cvb.py	/^class PostListView1(View):$/;"	c
+PostListView2	dojo/views_cvb.py	/^class PostListView2(TemplateView):$/;"	c
+PostListView3	dojo/views_cvb.py	/^class PostListView3(View):$/;"	c
+ROOT_URLCONF	askdjango/settings.py	/^ROOT_URLCONF = 'askdjango.urls'$/;"	v
+SECRET_KEY	askdjango/settings.py	/^SECRET_KEY = 'slkqe_+w485q65(t1r(lni*)amt9k6gk_56^9q$=qmu!!%^+*k'$/;"	v
+STATIC_URL	askdjango/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	askdjango/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	askdjango/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	askdjango/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	askdjango/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	askdjango/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	askdjango/settings.py	/^WSGI_APPLICATION = 'askdjango.wsgi.application'$/;"	v
+application	askdjango/wsgi.py	/^application = get_wsgi_application()$/;"	v
+content	blog/models.py	/^    content = models.TextField()$/;"	v	class:Post
+created_at	blog/models.py	/^    created_at = models.DateTimeField(auto_now_add=True)$/;"	v	class:Post
+dependencies	blog/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+excel_download	dojo/views.py	/^def excel_download(request):$/;"	f
+fields	blog/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+filepath	dojo/views_cvb.py	/^    filepath = '\/Users\/peterLee\/dev\/askdjango\/5w-hw.xlsx'$/;"	v	class:ExcelDownloadView
+get	dojo/views_cvb.py	/^    def get(self, request):$/;"	m	class:ExcelDownloadView
+get	dojo/views_cvb.py	/^    def get(self, request):$/;"	m	class:PostListView1
+get	dojo/views_cvb.py	/^    def get(self, request):$/;"	m	class:PostListView3
+get_context_data	dojo/views_cvb.py	/^    def get_context_data(self):$/;"	m	class:PostListView2
+get_data	dojo/views_cvb.py	/^    def get_data(self):$/;"	m	class:PostListView3
+get_template_string	dojo/views_cvb.py	/^    def get_template_string(self):$/;"	m	class:PostListView1
+hello	dojo/views.py	/^def hello(request, name, age):$/;"	f
+initial	blog/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+mysum	dojo/views.py	/^def mysum(request, numbers):$/;"	f
+name	blog/apps.py	/^    name = 'blog'$/;"	v	class:BlogConfig
+name	blog/migrations/0001_initial.py	/^            name='Post',$/;"	v	class:Migration
+name	dojo/apps.py	/^    name = 'dojo'$/;"	v	class:DojoConfig
+operations	blog/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+post_list	blog/views.py	/^def post_list(request):$/;"	f
+post_list1	dojo/views.py	/^def post_list1(request):$/;"	f
+post_list1	dojo/views_cvb.py	/^post_list1 = PostListView1.as_view()$/;"	v
+post_list2	dojo/views.py	/^def post_list2(request):$/;"	f
+post_list2	dojo/views_cvb.py	/^post_list2 = PostListView2.as_view()$/;"	v
+post_list3	dojo/views.py	/^def post_list3(request):$/;"	f
+post_list3	dojo/views_cvb.py	/^post_list3 = PostListView3.as_view()$/;"	v
+template_name	dojo/views_cvb.py	/^    template_name = 'dojo\/post_list.html'$/;"	v	class:PostListView2
+title	blog/models.py	/^    title = models.CharField(max_length=100)$/;"	v	class:Post
+updated_at	blog/models.py	/^    updated_at = models.DateTimeField(auto_now=True)$/;"	v	class:Post
+urlpatterns	askdjango/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	blog/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	dojo/urls.py	/^urlpatterns = [$/;"	v

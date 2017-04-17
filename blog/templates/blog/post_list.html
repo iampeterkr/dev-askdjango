@@ -1,0 +1,48 @@
+<!-- blog/templates/blog/post_list.html -->
+<html>
+    <head>
+        <title>
+            Djang blog 
+        </title>
+        <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,
+                               minimum-scale=1.0,maximum-scale=1.0,
+                               user-scalable=no" />
+
+    </head>
+    <body>
+<h1>AskDjango</h1>
+
+<form action="", method="get">
+    <input type="text" name="q" value="{{ q }}"/>
+    <input type="submit" value="검색"/>
+</form>
+
+<ul>
+{% for post in post_list %}
+    <li>
+        {{ post.id }}
+        <a href="/blog/{{ post.id }}/"> {{ post.title }} </a>
+
+        {{ post.content }}
+        <small> at {{ post.created_at }}</small>
+
+    </li>
+{% endfor %}
+</ul>
+
+<p>안녕하세요. 여러분의 파이썬/장고 페이스메이커가 되겠습니다. ;)
+    <p>
+ http://localhost:8000/blog/ 주소로 접속해보세요.
+ <p>
+ 템플릿 경로를 blog/templates/post_list.html 경로가 아닌 
+ blog/ templates/blog/post_list.html 경로를 쓰는 지에 대한 이유는, 
+ 후에 Template Loader에서 설명합니다.
+
+
+
+</p>
+
+    </body>
+</html>
+

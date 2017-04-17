@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    {{ post.content | linebreaks}}
+
+    <hr>
+    <h1> COMMENTS </h1>
+{% for comment in post.comment_set.all %}
+    {{ comment.content }}
+
+    <small>  / by {{ comment.author }} </small>
+    <small>  / at {{ comment.updated_at }} </small>
+    <p>
+{% endfor %}
+
+</body>
+</html>
