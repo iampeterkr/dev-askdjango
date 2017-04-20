@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post_list.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/templates/blog/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,9 +55,7 @@
         <option value="$PROJECT_DIR$/dojo/views_cvb.py" />
         <option value="$PROJECT_DIR$/dojo/models.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
         <option value="$PROJECT_DIR$/accounts/admin.py" />
@@ -69,6 +67,8 @@
         <option value="$PROJECT_DIR$/shop/admin.py" />
         <option value="$PROJECT_DIR$/shop/models.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/layout.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
       </list>
     </option>
   </component>
@@ -701,55 +701,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/askdjango/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding>
-            <marker date="1492398459000" expanded="true" signature="0:311" ph="&quot;&quot;&quot;Django settings for askdjango project....&quot;&quot;&quot;" />
-            <marker date="1492398459000" expanded="true" signature="469:672" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="888:1105" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="888:1174" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="1191:1643" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="1692:2161" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="1698:2158" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="1835:2151" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="1871:2140" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2214:2289" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2304:2430" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2321:2428" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2434:2535" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2565:2959" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2571:2668" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2676:2763" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2771:2859" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2867:2956" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="2963:3039" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="3135:3236" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <marker date="1492387827000" expanded="true" signature="50:52" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/askdjango/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <marker date="1492398459000" expanded="true" signature="0:642" ph="&quot;&quot;&quot;askdjango URL Configuration...&quot;&quot;&quot;" />
-            <marker date="1492398459000" expanded="true" signature="643:750" ph="import ..." />
-            <marker date="1492398459000" expanded="true" signature="767:983" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="1004:1114" ph="..." />
-            <marker date="1492398459000" expanded="true" signature="1050:1113" ph="..." />
           </folding>
         </state>
       </provider>
@@ -936,35 +893,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
+    <entry file="file://$PROJECT_DIR$/askdjango/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="287">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
-            <marker date="1491828256000" expanded="true" signature="31:422" ph="..." />
-            <marker date="1491828256000" expanded="true" signature="38:109" ph="..." />
-            <marker date="1491828256000" expanded="true" signature="116:414" ph="..." />
-            <marker date="1491828256000" expanded="true" signature="392:407" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="0:642" ph="&quot;&quot;&quot;askdjango URL Configuration...&quot;&quot;&quot;" />
+            <marker date="1492398459000" expanded="true" signature="643:750" ph="import ..." />
+            <marker date="1492398459000" expanded="true" signature="767:983" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="1004:1114" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="1050:1113" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/layout.html">
+    <entry file="file://$PROJECT_DIR$/askdjango/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="1046">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
           <folding>
-            <marker date="1492685189000" expanded="true" signature="31:122" ph="..." />
-            <marker date="1492685189000" expanded="true" signature="38:98" ph="..." />
-            <marker date="1492685189000" expanded="true" signature="105:114" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="0:311" ph="&quot;&quot;&quot;Django settings for askdjango project....&quot;&quot;&quot;" />
+            <marker date="1492398459000" expanded="true" signature="469:672" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="888:1105" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="888:1174" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="1191:1643" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="1692:2161" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="1698:2158" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="1835:2151" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="1871:2140" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2214:2289" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2304:2430" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2321:2428" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2434:2535" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2565:2959" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2571:2668" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2676:2763" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2771:2859" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2867:2956" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="2963:3039" ph="..." />
+            <marker date="1492398459000" expanded="true" signature="3135:3236" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding>
+            <marker date="1492688334000" expanded="true" signature="138:852" ph="{% block content ... %}" />
+            <marker date="1492688334000" expanded="true" signature="191:299" ph="..." />
+            <marker date="1492688334000" expanded="true" signature="309:573" ph="..." />
+            <marker date="1492688334000" expanded="true" signature="315:564" ph="{% for post in post_list ... %}" />
+            <marker date="1492688334000" expanded="true" signature="354:546" ph="..." />
+            <marker date="1492688334000" expanded="true" signature="582:627" ph="..." />
+            <marker date="1492688334000" expanded="true" signature="630:681" ph="..." />
+            <marker date="1492688334000" expanded="true" signature="684:835" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1492688753000" expanded="true" signature="34:87" ph="{% block title ... %}" />
+            <marker date="1492688753000" expanded="true" signature="89:453" ph="{% block content ... %}" />
+            <marker date="1492688753000" expanded="true" signature="419:453" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
